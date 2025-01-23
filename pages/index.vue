@@ -1,4 +1,7 @@
 <script setup>
+import Features from '~/components/landing/Features.vue';
+import Gallery from '~/components/landing/Gallery.vue';
+
 definePageMeta({
   layout: "landing",
 });
@@ -7,7 +10,8 @@ definePageMeta({
 <template>
   <LandingContainer>
     <LandingHero></LandingHero>
-    <LandingFeatures></LandingFeatures>
+    <!-- <LandingFeatures></LandingFeatures> -->
+    <Gallery></Gallery>
     <LandingLogos></LandingLogos>
     <LandingCta></LandingCta>
   </LandingContainer>

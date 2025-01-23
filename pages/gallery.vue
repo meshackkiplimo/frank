@@ -7,13 +7,13 @@ definePageMeta({
 const certifications = [
   {
     title: "Certified Public Accountant",
-    description: "Recognized by The Public Accountants Society for expertise in Public Accounting",
+    description: "Recognized by The Wildlife Society for expertise in wildlife biology and management.",
     src: "/CPA CERT.pdf", // Corrected path
     icon: "bx:bxs-badge-check",
   },
   {
     title: "University Degree in Finance",
-    description: "Awarded certification for completing University Degree",
+    description: "Awarded certification for completing advanced field research methods in ecology.",
     icon: "bx:bxs-tree",
     src: "/UNIVERSITY DEGREE.pdf", // Corrected path
   },

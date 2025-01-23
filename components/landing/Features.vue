@@ -37,11 +37,11 @@ const downloadCertification = (certification) => {
       </p>
     </div>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-10">
       <div
         v-for="certification of certifications"
         :key="certification.title"
-        class="bg-white shadow-lg rounded-lg p-6 transition-transform transform hover:scale-105 cursor-pointer"
+        class="bg-white shadow-lg rounded-lg p-4 sm:p-6 lg:p-8 transition-transform transform hover:scale-105 cursor-pointer"
         @click="downloadCertification(certification)"
       >
         <div class="flex items-center mb-4">
@@ -97,8 +97,16 @@ const downloadCertification = (certification) => {
   border-radius: 0.5rem;
 }
 
-.p-6 {
+.p-4 {
+  padding: 1rem;
+}
+
+.sm\:p-6 {
   padding: 1.5rem;
+}
+
+.lg\:p-8 {
+  padding: 2rem;
 }
 
 .mb-4 {
@@ -193,7 +201,15 @@ const downloadCertification = (certification) => {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.gap-10 {
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.sm\:gap-8 {
+  gap: 2rem;
+}
+
+.lg\:gap-10 {
   gap: 2.5rem;
 }
 
